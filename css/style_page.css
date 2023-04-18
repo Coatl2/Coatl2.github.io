@@ -1,0 +1,272 @@
+@charset "utf-8";
+header,nav,main,footer{
+	padding: 20PX;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav {
+    height: 60px;
+    background-color: #54656C;
+}
+nav ul li {
+    width: 121px;
+    height: 30px;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 30;
+    border: 8px solid #FFFFFF;
+    background-color: #E7CCF8;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+a {
+    color: #54656C;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    margin-top: 6px;
+    margin-right: -46px;
+    margin-left: -28px;
+    margin-bottom: -42px;
+    padding-top: 0px;
+    padding-right: 23px;
+    padding-left: 51px;
+    padding-bottom: 60px;
+    display: inline-block;
+}
+nav a:link {
+    color: #FFFDFD;
+}
+nav a:active {
+    color: #1B535F;
+}
+nav a:visited {
+    color: #2A5538;
+}
+body header h1 {
+}
+nav a:hover {
+    color: #104D4C;
+}
+
+
+
+
+
+
+
+main {
+    height: auto;
+    background-color: #E7CCF8;
+}
+
+
+
+
+header{
+    background-color: #525252;
+    height: 100px;
+}
+footer {
+	height: 50px;
+	background-color: #020036;
+}
+header h1 {
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+}
+footer h5 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+main section {
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    background-color: #54656C;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    color: #CCD1FF;
+}
+main section h2 {
+    padding-bottom: 15px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+main section p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+#img1 {
+    width: 37.5%;
+    height: auto;
+    padding-left: 10px;
+}
+#img0 {
+    width: 300px;
+    height: auto;
+    padding-left: 20px;
+}
+.img_1 {
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    border: 15px solid #FFFFFF;
+    padding-top: 0px;
+}
+#img2 {
+    width: 25%;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: justify;
+    margin-top: 21px;
+}
+#img3 {
+    width: 25%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+    padding-top: 0px;
+    margin-top: 12px;
+}
+#fondo_1 {
+    background-repeat: no-repeat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    background-size: 90%
+%;
+    background-position: 0% 60%;
+    background-image: url(../imagenes/rttt.jpg);
+    background-size: 100% 140%;
+}
+.p1 {
+    width: 400px;
+    height: auto;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.img_fltro {
+    height: auto;
+    margin: 15px;
+    width: 170px;
+}
+.escala_grices {
+    filter: grayscale(100%);
+    float: right;
+}
+.sepia {
+    filter: sepia(100%);
+}
+.opacidad {
+    filter: opacity(50%);
+}
+.brillo {
+    filter: brightness(280%);
+}
+.contraste {
+    filter: contrast(180%);
+}
+.negativo {
+    filter: invert(100%);
+}
+.desenfocar {
+    filter: blur(2px);
+}
+#centro1 {
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-left: 52px;
+}
+#centro1 {
+    padding-left: 45px;
+}
+.video {
+    left: 26px;
+    width: 501px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.video_1 {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border: 7px solid #FBFBFB;
+}
+.center {
+    margin: oauto;
+    display: block;
+    padding-left: 86px;
+}
+.img2 {
+    width: 20%;
+    height: auto;
+    float: right;
+    padding-left: 15px;
+}
+.videito {
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.animate {
+}
+.animate__bounce {
+}
+.animate__dilay-3s {
+}
+.animate__dilay-5s {
+}
+.animate__slower {
+}
+.animate__dilay-7s {
+}
+.image_3 {
+    height: auto;
+    width: 15%;
+    float: left;
+    padding-left: 0px;
+    padding-right: 14px;
+}
+.animate__repeat-3 {
+}
+.animate__repeat-4 {
+}
